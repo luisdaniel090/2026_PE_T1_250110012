@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplos Estadísticos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body> 
+
+<section>
+<div class="contenedor">
+
+    <h1>Datos Cuantitativos Discretos</h1>
+    <p>Son datos numéricos que se cuentan en valores enteros. No admiten decimales porque representan cantidades exactas.</p>
+
+    <h2>Ejemplo 1</h2>
+    <p>Número de libros que tienen 100 estudiantes en su casa.</p>
+
+    <p class="datos">
+        12, 8, 15, 20, 5, 7, 10, 3, 18, 9,
+        6, 14, 11, 4, 13, 7, 16, 12, 8, 19,
+        5, 9, 10, 6, 15, 11, 7, 13, 8, 12,
+        4, 9, 14, 6, 10, 7, 11, 5, 13, 8,
+        12, 9, 15, 6, 10, 7, 11, 5, 13, 8,
+        12, 9, 14, 6, 10, 7, 11, 5, 13, 8,
+        12, 9, 15, 6, 10, 7, 11, 5, 13, 8,
+        12, 9, 14, 6, 10, 7, 11, 5, 13, 8,
+        12, 9, 15, 6, 10, 7, 11, 5, 13, 8,
+        12, 9, 14, 6, 10, 7, 11, 5, 13, 8
+    </p>
+
+    <div class="resumen">
+        <h3>Resumen Estadístico</h3>
+        <ul>
+            <li><strong>Observaciones:</strong> 100</li>
+            <li><strong>Media:</strong> 9.73</li>
+            <li><strong>Moda:</strong> 7 y 8</li>
+            <li><strong>Rango:</strong> 17</li>
+        </ul>
+    </div>
+
+    <h2>Tabla de Distribución</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Clase</th>
+                <th>Frecuencia absoluta</th>
+                <th>Frecuencia relativa</th>
+                <th>Frecuencia Acumulada</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>3 - 5</td><td>15</td><td>0.15</td><td>15</td></tr>
+            <tr><td>6 - 8</td><td>35</td><td>0.35</td><td>50</td></tr>
+            <tr><td>9 - 11</td><td>28</td><td>0.28</td><td>78</td></tr>
+            <tr><td>12 - 14</td><td>16</td><td>0.16</td><td>94</td></tr>
+            <tr><td>15 - 17</td><td>4</td><td>0.04</td><td>98</td></tr>
+            <tr><td>18 - 20</td><td>2</td><td>0.02</td><td>100</td></tr>
+            <tr><td><strong>Total</strong></td><td><strong>100</strong></td><td><strong>1.00</strong></td><td></td><td><strong></strong></td></tr>
+        </tbody>
+    </table>
+    <img src="imagenes/1.png" width="200" height="200">
+    <img src="imagenes/2.png" width="200" height="200">
+    <img src="imagenes/3.png" width="200" height="200">
+    <img src="imagenes/4.png" width="200" height="200">
+    <img src="imagenes/5.png" width="200" height="200">
+</div>
+</section>
+
+
+<section>
+<div class="contenedor">
+
+    <h1>Datos Cuantitativos Continuos</h1>
+    <p>Son datos numéricos que se miden y pueden tomar valores con decimales. Representan magnitudes que varían de manera continua.</p>
+
+    <h2>Ejemplo 2</h2>
+    <p>100 registros simulados de alturas de personas en centímetros.</p>
+
+    <p class="datos">
+        165.2, 172.8, 180.5, 158.9,
+        169.4, 175.6, 182.1, 160.7, 168.3, 177.2,171.5, 166.8,
+        174.9, 179.3, 162.4, 170.6, 176.8, 181.7, 159.5,
+        167.9,173.2, 178.6, 164.1, 172.0, 175.3, 183.0, 161.2,
+        169.7, 176.1, 180.9,163.7, 171.2, 174.5, 179.8, 160.3,
+        168.6, 177.5, 182.4, 165.9, 173.7,170.1, 175.8, 181.3,
+        162.7, 169.0, 176.4, 180.2, 164.8, 172.5, 178.1,166.3,
+        171.9, 175.0, 182.7, 159.8, 168.9, 177.0, 181.9, 163.5,
+        170.8,174.2, 179.1, 161.7, 169.2, 176.6, 180.7, 165.0,
+        172.3, 178.4, 183.2,160.9, 167.5, 175.4, 181.1, 162.1,
+        170.4, 176.9, 179.7, 164.6, 172.7,174.8, 182.0, 159.9,
+        168.1, 177.3, 180.8, 163.2, 171.6, 175.7, 181.5,166.0, 
+        170.9, 178.2, 183.4, 161.4, 169.8, 176.2, 180.0, 165.5,
+        173.1    </p>
+    <div class="resumen">
+        <h3>Resumen Estadístico</h3>
+        <ul>
+            <li><strong>Observaciones:</strong> 100</li>
+            <li><strong>Media:</strong> 173.46 cm</li>
+            <li><strong>Moda:</strong> No existe</li>
+            <li><strong>Rango:</strong> 24.5 cm</li>
+        </ul>
+    </div>
+    <table> <thead> <tr> <th>Clase</th>
+        <th>Límite inferior</th> 
+        <th>Límite superior</th>
+        <th>Marca de clase</th> 
+        <th>fi</th> <th>fr</th> </tr>
+    </thead> <tbody> 
+        <tr><td>1</td><td>158.9</td><td>161.9</td><td>160.4</td><td>8</td><td>0.08</td>
+    </tr> <tr><td>2</td><td>161.9</td><td>164.9</td><td>163.4</td><td>12</td><td>0.12</td></tr> 
+        <tr><td>3</td><td>164.9</td><td>167.9</td><td>166.4</td><td>15</td><td>0.15</td>
+        </tr> <tr><td>4</td><td>167.9</td><td>170.9</td><td>169.4</td><td>17</td><td>0.17</td></tr> 
+        <tr><td>5</td><td>170.9</td><td>173.9</td><td>172.4</td><td>18</td><td>0.18</td></tr> 
+        <tr><td>6</td><td>173.9</td><td>176.9</td><td>175.4</td><td>14</td><td>0.14</td></tr> 
+        <tr><td>7</td><td>176.9</td><td>179.9</td><td>178.4</td><td>9</td><td>0.09</td></tr>
+        <tr><td>8</td><td>179.9</td><td>183.9</td><td>181.9</td><td>9</td><td>0.07</td></tr>
+        <tr><td><strong>Total</strong></td><td></td><td>
+            
+        </td><td></td><td><strong>100</strong></td><td><strong>1.00</strong></td></tr> </tbody> </table><br>
+   <img src="imagenes/6.png" width="200" height="200">
+    <img src="imagenes/7.png" width="200" height="200">
+    <img src="imagenes/8.png" width="200" height="200">
+    <img src="imagenes/9.png" width="200" height="200">
+    <img src="imagenes/10.png" width="200" height="200">
+</div>
+</section>
+
+
+<section>
+<div class="contenedor">
+
+    <h1>Datos Cualitativos</h1>
+    <p>Son datos que describen cualidades, categorías o atributos. No se expresan en números, sino en palabras o etiquetas.</p>
+
+    <h2>Ejemplo 3</h2>
+    <p> Preferencias de música.
+    <p class="datos">Rock, Pop, Reguetón, Rock, Jazz, Pop,
+        Clásica, Rock, Salsa, Pop, Rock, Reguetón, Jazz, Clásica,
+        Rock, Salsa, Rock, Reguetón, Jazz, Pop, Clásica, Rock,
+        Salsa, Pop, Rock, Reguetón, Jazz, Pop, Clásica, Rock,
+        Salsa, Pop, Rock, Reguetón, Jazz, Pop, Clásica, Rock, 
+        Salsa, Pop, Rock, Reguetón, Jazz, Pop, Clásica, Rock,
+        Salsa, Pop, Rock, Reguetón, Jazz, Pop, Clásica, Rock,
+        Salsa, Pop, Rock, Reguetón, Jazz, Pop, Clásica, Rock,
+        Salsa, Pop, Rock, Reguetón, Jazz, Pop, Clásica, Rock, 
+        Salsa, Rock, Reguetón, Jazz, Pop, Clásica, Rock, 
+        Salsa, Rock, Reguetón, Jazz, Pop, Clásica, Rock, 
+        Salsa, Pop, Rock, Reguetón, Jazz, Pop, Clásica, Rock, 
+        Salsa, Pop, Rock, Reguetón, Rock, Reguetón, Jazz, Pop, 
+        <br>
+
+    <div class="resumen">
+        <h3>Resumen Estadístico</h3>
+        <ul>
+            <li><strong>Observaciones:</strong> 100</li>
+            <li><strong>Media:</strong> No aplica</li>
+            <li><strong>Moda:</strong> Rock</li>
+            <li><strong>Rango:</strong> No aplica</li>
+        </ul>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Clase</th>
+                <th>Frecuencia Absoluta</th>
+                <th>Frecuencia Relativa</th>
+                <th>Frecuencia Acumulada</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Rock</td><td>27</td><td>0.27</td><td>27</td></tr>
+            <tr><td>Pop</td><td>23</td><td>0.23</td><td>50</td></tr>
+            <tr><td>Reguetón</td><td>17</td><td>0.17</td><td>67</td></tr>
+            <tr><td>Jazz</td><td>16</td><td>0.16</td><td>83</td></tr>
+            <tr><td>Clásica</td><td>12</td><td>0.12</td><td>100</td></tr>
+            <tr><td>Salsa</td><td>5</td><td>0.05</td><td>100</td></tr>
+            <tr><td><strong>Total</strong></td><td><strong>100</strong></td><td><strong>1.00</strong></td><td><strong>100</strong></td></tr>
+        </tbody>
+    </table>
+   <img src="imagenes/11.png" width="200" height="200">
+    <img src="imagenes/12.png" width="200" height="200">
+    <img src="imagenes/13.png" width="200" height="200">
+    <img src="imagenes/14.png" width="200" height="200">
+    <img src="imagenes/15.png" width="200" height="200">
+</div>
+</section>
+
+</body>
+</html>
